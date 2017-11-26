@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3B5F77;
+}
+
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #7AD288;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+  opacity: 0.5;
+    display: none;
+    position: absolute;
+    background-color: #F2E1CF;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #333;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    float top;
+    border-top: 1px solid #bbb;
+}
+
+.dropdown-content a:hover {background-color: #F2765B}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Projects</a>
+    <div class="dropdown-content">
+      <a href="#">Dodecahedron Speaker </a>
+      <a href="#">Hexacopter Drone</a>
+      <a href="#">Wheelchair Attachtment</a>
+      <a href="#">Sound Reactive LED's</a>
+      <a href="#">Birthday Speaker</a>
+      <a href="#">Dune Buggy</a>
+    </div>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Education</a>
+    <div class="dropdown-content">
+      <a href="MeadowbrookED.htm">Meadowbrook</a>
+      <a href="FessendenED.htm">Fessenden</a>
+      <a href="ChoateED.htm">Choate</a>
+    </div>
+    <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">About Charlie</a>
+    <div class="dropdown-content">
+      <a href="#">Early Life</a>
+      <a href="#">Interests</a>
+      <a href="#">Goals</a>
+      <a href="#">Future</a>   
+    </div>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Contact</a>
+    <div class="dropdown-content">
+      <a href="https://github.com/Charlie-Schlager/">Github</a>
+      <a href="http://www.instructables.com/member/cschlager15/">Instructables</a>
+      <a href="#">LinkedIn</a>
+      <a href="#">Email</a>   
+    </div>
+  </li>
+</ul>
+
+</body>
+</html>
